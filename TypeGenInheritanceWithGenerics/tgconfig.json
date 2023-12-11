@@ -1,0 +1,11 @@
+{
+  "typeNameConverters": [ "FormatTypeName" ],
+  "fileNameConverters": [ "FormatFileName" ],
+  "tabLength": 2,
+  "singleQuotes": true,
+  "outputPath": "types/webapi",
+  "clearOutputDirectory": true,
+  "externalAssemblyPaths": [ "./bin" ],
+  "createIndexFile": true,
+  "enumStringInitializersConverters": [ "PascalCaseToCamelCaseConverter" ]
+}
