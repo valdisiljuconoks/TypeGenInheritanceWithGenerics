@@ -6,6 +6,6 @@
 import { GenericServiceResponseDto } from './GenericServiceResponseDto.generated';
 import { CustomerDto } from './CustomerDto.generated';
 
-export interface GetCustomersResponseDto {
+export interface GetCustomersResponseDto extends GenericServiceResponseDto<CustomerDto> {
 
 }
